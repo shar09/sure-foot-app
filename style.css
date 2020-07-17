@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Cabin', sans-serif;
+   margin: 5vh;
+}
+
+.title {
+    color: #522fae;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.header-content {
+    font-size: 1.1em;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.call-content {
+    font-size: 0.95em;
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+}
+
+.call-button {
+    padding: 1.8vh 6vh;
+    color: #ffffff;
+    background-color: #522fae;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.form>input, .form>textarea {
+    margin-top: 3vh;
+    border-radius: 3px;
+    border: none;
+    background-color: #efefef;
+    color: #5a5a5a;
+    font-size: 0.9em;
+}
+
+.form>input{
+    padding: 1.5vh;
+}
+
+.form>textarea {
+    padding: 1.5vh;
+    padding-bottom: 12vh;
+    font-size: 1.1em;
+}
+
+.form-submit {
+    margin-top: 3vh;
+    padding: 2vh 4vh;
+    background-color: #522fae;
+    color: #ffffff;
+    align-self: flex-end;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+
